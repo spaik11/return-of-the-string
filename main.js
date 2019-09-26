@@ -18,8 +18,8 @@ function oneCharacter(str, i) {
   return str[i];
 }
 
-function twoCharacters(str, num1, num2) {
-  return oneCharacter(str, num1) + oneCharacter(str, num2);
+function twoCharacters(str, index1, index2) {
+  return oneCharacter(str, index1) + oneCharacter(str, index2);
 }
 
 function initials(str) {
