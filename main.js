@@ -20,6 +20,7 @@ function oneCharacter(str, i) {
 
 function twoCharacters(str, index1, index2) {
   return oneCharacter(str, index1) + oneCharacter(str, index2);
+  // return str[index1] + str[index2]
 }
 
 function initials(str) {
@@ -27,7 +28,12 @@ function initials(str) {
 }
 
 function yeller(str) {
-  return `${capitalize(str)}!!!`;
+  return exclaim(exclaim(exclaim(capitalize(str))));
+  // return `${capitalize(str)}!!!`;
+  // const capitalized = capital(str);
+  // oneExclamationPoint = exclaim(capitalized);
+  // two ExclamationPoint = exclaim(oneExclamationPoint);
+  // return exclaim(twoExclamationPoints);
 }
 
 
