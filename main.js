@@ -10,22 +10,24 @@ function firstCharacter(str) {
   return str[0];
 }
 
-function lastCharacter() {
+function lastCharacter(str) {
   return str[str.length -1];
 }
 
 function oneCharacter(str, index) {
-  const index = str.indexOf(index);
-  return;
+  return str[index];
 }
 
-function twoCharacters() {
+function twoCharacters(str, num1, num2) {
+  return oneCharacter(str, num1) + oneCharacter(str, num2);
 }
 
-function initials() {
+function initials(str) {
+  return `${firstCharacter(str)}.${str[str.indexOf(' ') + 1]}.`;
 }
 
-function yeller() {
+function yeller(str) {
+  return 
 }
 
 
