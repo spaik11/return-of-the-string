@@ -27,7 +27,7 @@ function initials(str) {
 }
 
 function yeller(str) {
-  return 
+  return `${capitalize(str)}!!!`;
 }
 
 
