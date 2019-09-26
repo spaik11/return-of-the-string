@@ -1,16 +1,22 @@
-function capitalize() {
+function capitalize(str) {
+  return str.toUpperCase();
 }
 
-function exclaim() {
+function exclaim(str) {
+  return `${str}!`;
 }
 
-function firstCharacter() {
+function firstCharacter(str) {
+  return str[0];
 }
 
 function lastCharacter() {
+  return str[str.length -1];
 }
 
-function oneCharacter() {
+function oneCharacter(str, index) {
+  const index = str.indexOf(index);
+  return;
 }
 
 function twoCharacters() {
