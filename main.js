@@ -14,8 +14,8 @@ function lastCharacter(str) {
   return str[str.length -1];
 }
 
-function oneCharacter(str, index) {
-  return str[index];
+function oneCharacter(str, i) {
+  return str[i];
 }
 
 function twoCharacters(str, num1, num2) {
